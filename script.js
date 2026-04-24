@@ -4,5 +4,6 @@ const nav = document.querySelector(".main-nav");
 if (toggleButton && nav) {
   toggleButton.addEventListener("click", () => {
     nav.classList.toggle("open");
+    toggleButton.classList.toggle("is-open");
   });
 }
